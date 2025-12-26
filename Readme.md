@@ -57,8 +57,8 @@ This project follows **Clean Architecture** (Robert C. Martin).
 │   │   │
 │   │   ├── usecase/
 │   │   │   ├── interfaces/
-│   │   │   │   ├── TaskRepository.ts
-│   │   │   │   └── Notifier.ts
+│   │   │   │   ├── INotification.ts
+│   │   │   │   └── Ilogger.ts
 │   │   │   │
 │   │   │   └── services/           # Business logic
 │   │   │       ├── TaskServices.ts
