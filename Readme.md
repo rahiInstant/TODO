@@ -78,9 +78,11 @@ This project follows **Clean Architecture** (Robert C. Martin).
 │   │
 │   ├── infrastructure/
 │   │   ├── persistence/
-│   │   │   └── TaskRepositoryMongo.ts
+│   │   │   ├── TaskRepoPostgres.ts
+│   │   │   └── TaskRepoMongo.ts
 │   │   │
 │   │   ├── notification/
+│   │   │   ├── GmailNotfier.ts
 │   │   │   └── EmailNotifier.ts
 │   │   │
 │   │   └── config/
