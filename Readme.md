@@ -3,7 +3,7 @@
 This is a **Basic To-Do Application** designed to practice and understand **Clean Architecture principles**.  
 The goal of this project is **clarity of design**, **separation of concerns**, and **maintainable code**, not framework-specific tricks.
 
----
+
 
 ## 🎯 Purpose of This Project
 
@@ -12,7 +12,6 @@ The goal of this project is **clarity of design**, **separation of concerns**, a
 - Proper use of **Repositories & Interfaces**
 - Build a simple but well-structured To-Do system
 
----
 
 ## 🧠 What This App Does
 
@@ -21,7 +20,6 @@ The goal of this project is **clarity of design**, **separation of concerns**, a
 - View tasks
 - (Optional) Send notification when task is completed
 
----
 
 ## 🏗 Architecture Overview
 
@@ -33,7 +31,6 @@ This project follows **Clean Architecture** (Robert C. Martin).
 - Use cases drive the application
 - Infrastructure is replaceable
 
----
 
 ## 📂 Folder Structure
 
