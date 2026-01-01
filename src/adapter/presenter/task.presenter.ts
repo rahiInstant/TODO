@@ -2,7 +2,7 @@ import { Task } from "./../../core/domain/entities/Task";
 export class TaskPresenter {
   constructor() {}
 
-  toHTTP(task: Task) {
+  static toHTTP(task: Task) {
     return {
       id: task.id,
       title: task.title,

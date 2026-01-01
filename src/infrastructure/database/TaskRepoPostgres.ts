@@ -1,7 +1,6 @@
-import { Task } from "../../core/domain/entities/Task";
-import { ITaskRepo } from "../../core/domain/repositories/ITaskRepo";
+import { ITaskRepo } from "../../core/usecase/interfaces/ITaskRepo";
 
-export class TaskRepoMongo implements ITaskRepo {
+export class TaskRepoPostgres implements ITaskRepo {
   constructor() {}
   save(task: Task): Promise<void> {}
   findAllByUser(userId: string): Promise<Task[]> {}
