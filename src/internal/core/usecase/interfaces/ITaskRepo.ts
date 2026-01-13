@@ -5,6 +5,5 @@ export interface ITaskRepo {
   findAllByUser(userId: string): Promise<Task[]>;
   findById(id: string): Promise<Task | null>;
   delete(id: string): Promise<void>;
-  update(id: string, title: string, description: string): Promise<void>;
   markComplete(id: string, completed: boolean): Promise<void>;
 }

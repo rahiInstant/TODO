@@ -1,3 +1,4 @@
+import { IPremiumUserTaskRepo } from "../../core/usecase/interfaces/IPremiumUserTaskRepo";
 import { ITaskRepo } from "../../core/usecase/interfaces/ITaskRepo";
 
 export class TaskRepoPostgres implements ITaskRepo {
@@ -6,6 +7,5 @@ export class TaskRepoPostgres implements ITaskRepo {
   findAllByUser(userId: string): Promise<Task[]> {}
   findById(id: string): Promise<Task | null> {}
   delete(id: string): Promise<void> {}
-  update(id: string, title: string, description: string): Promise<void> {}
   markComplete(id: string, completed: boolean): Promise<void> {}
 }

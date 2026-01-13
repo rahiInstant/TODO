@@ -1,6 +1,6 @@
-import { TaskRepoMongo } from "./../persistant/TaskRepoMongo";
-import { TaskRepoPostgres } from "../persistant/TaskRepoPostgres";
 import { ITaskRepo } from "../../core/usecase/interfaces/ITaskRepo";
+import { TaskRepoMongo } from "../repositories/TaskRepoMongo";
+import { TaskRepoPostgres } from "../repositories/TaskRepoPostgres";
 
 export class taskDBFactory {
  static createDB(dbName: "postgres" | "mongo" | string | undefined): ITaskRepo {
